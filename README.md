@@ -1,9 +1,3 @@
-<h1 align="center">Nock Nock</h1>
-
-<p align="center">
-  <strong>Ahmet Berat Tangüner</strong> · <a href="https://github.com/n0connect">@n0connect</a>
-</p>
-
 <h3 align="center">
   Computer Engineering | Offensive Security &amp; Vulnerability Research | AI/ML &amp; Agentic Systems
 </h3>
