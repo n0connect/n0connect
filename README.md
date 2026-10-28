@@ -30,16 +30,6 @@ I also explore **AI/ML and agentic systems**, particularly how intelligent model
 
 ---
 
-## 🚀 Selected Projects
-
-| Project | Description | Technologies |
-| :--- | :--- | :--- |
-| **[Yummi](https://github.com/n0connect/Yummi)** | AI-assisted pentest platform combining agent orchestration, a containerized security workbench, and an independent network policy gateway. | Go · Rust · React · Docker |
-| **[BlackBox](https://github.com/n0connect/blackbox)** | Experimental encrypted vault exploring hardware-bound keys, memory hardening, and streaming file encryption. | Rust · TPM 2.0 · Secure Enclave |
-| **[Cyn0](https://github.com/n0connect/cyn0)** | Cross-platform desktop tool for searching and copying security testing payloads, commands, and reference material. | C++ · Qt |
-
----
-
 ## 🛠️ Tools & Technologies
 
 ### Security & Reverse Engineering
