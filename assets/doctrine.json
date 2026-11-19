@@ -1,0 +1,34 @@
+{
+  "prompt": "doctrine --zero-tolerance",
+  "command": {
+    "title": "Chain of Command",
+    "accent": "#D97757",
+    "operator": {
+      "role": "OPERATOR",
+      "name": "me",
+      "lines": ["sets intent and the law", "holds every gate:", "test · merge · push"]
+    },
+    "lead": {
+      "role": "LEAD",
+      "name": "Fable",
+      "lines": ["reads · plans · audits", "decides · verifies · reports"],
+      "rule": "writes no code"
+    },
+    "workers": [
+      { "role": "WORKER", "name": "Opus", "lines": ["writes the code", "compile-only · owns its files"] },
+      { "role": "WORKER", "name": "Opus", "lines": ["writes the code", "compile-only · owns its files"] }
+    ],
+    "caption": "Two workers at most. Effort is set per task. Tokens are a budget."
+  },
+  "snowball": {
+    "title": "The Tight Snowball",
+    "accent": "#00ADD8",
+    "stages": [
+      { "name": "Modularity", "lines": ["one error module,", "one log module", "no hardcoded values"] },
+      { "name": "Prove by Attack", "lines": ["negative tests,", "boundaries, sabotage", "a pass must survive it"] },
+      { "name": "Aggressive Fuzz", "lines": ["every module,", "tests included", "misuse and disaster"] },
+      { "name": "Live Tour", "lines": ["the real program,", "every screen", "as a hostile user"] }
+    ],
+    "caption": "Fixed order. A stage starts only when the previous one is honestly complete."
+  }
+}

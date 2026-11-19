@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 612" role="img" aria-labelledby="title desc">
+  <title id="title">Operating doctrine</title>
+  <desc id="desc">Chain of Command. OPERATOR me: sets intent and the law holds every gate: test · merge · push. LEAD Fable: reads · plans · audits decides · verifies · reports; writes no code. WORKER Opus: writes the code compile-only · owns its files. WORKER Opus: writes the code compile-only · owns its files. Two workers at most. Effort is set per task. Tokens are a budget. The Tight Snowball: 01 Modularity (one error module, one log module no hardcoded values), 02 Prove by Attack (negative tests, boundaries, sabotage a pass must survive it), 03 Aggressive Fuzz (every module, tests included misuse and disaster), 04 Live Tour (the real program, every screen as a hostile user). Fixed order. A stage starts only when the previous one is honestly complete.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    @media (prefers-reduced-motion: no-preference) {
+      @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+      @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes pop { from { opacity: 0; transform: scale(0.4); } to { opacity: 1; transform: scale(1); } }
+      .band { animation: rise 0.6s ease-out both; }
+      .wire { stroke-dasharray: 1 2; animation: draw 0.6s ease-out both; }
+      .head { animation: fade 0.25s ease-out both; }
+      .node { transform-box: fill-box; transform-origin: center; animation: pop 0.4s ease-out both; }
+      .b0 .wire { animation-delay: 0.3s; }
+      .b0 .head { animation-delay: 0.9s; }
+      .b0 { animation-delay: 0s; }
+      .b1 { animation-delay: 0.35s; }
+      .n0 { animation-delay: 0.55s; }
+      .n1 { animation-delay: 0.85s; }
+      .n2 { animation-delay: 1.15s; }
+      .n3 { animation-delay: 1.45s; }
+      .s0 .wire { animation-duration: 0.2s; animation-delay: 0.75s; }
+      .s0 .head { animation-delay: 0.95s; }
+      .s1 .wire { animation-duration: 0.2s; animation-delay: 1.05s; }
+      .s1 .head { animation-delay: 1.25s; }
+      .s2 .wire { animation-duration: 0.2s; animation-delay: 1.35s; }
+      .s2 .head { animation-delay: 1.55s; }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="879" height="611" rx="12" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+  <text x="24" y="30" font-size="13" fill="#8B949E"><tspan fill="#3FB950">$</tspan> doctrine --zero-tolerance</text>
+  <g class="band b0">
+    <rect x="24" y="54.5" width="18" height="3" rx="1.5" fill="#D97757"/>
+    <text x="50" y="62" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#D97757">CHAIN OF COMMAND</text>
+    <g>
+      <path class="wire" d="M234 202 H289.5" pathLength="1" fill="none" stroke="#484F58" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M295.5 202 L288.5 198 L288.5 206 Z" fill="#484F58"/>
+      <path class="wire" d="M541.5 202 H562.25 Q572.25 202 572.25 192 V150.5 Q572.25 140.5 582.25 140.5 H597" pathLength="1" fill="none" stroke="#484F58" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M603 140.5 L596 136.5 L596 144.5 Z" fill="#484F58"/>
+      <path class="wire" d="M541.5 202 H562.25 Q572.25 202 572.25 212 V253.5 Q572.25 263.5 582.25 263.5 H597" pathLength="1" fill="none" stroke="#484F58" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M603 263.5 L596 259.5 L596 267.5 Z" fill="#484F58"/>
+    </g>
+    <g>
+      <rect x="24" y="141" width="210" height="122" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="42" y="167" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#D97757">OPERATOR</text>
+      <text x="42" y="189" font-size="14" font-weight="bold" fill="#E6EDF3">me</text>
+      <text x="42" y="211" font-size="12" fill="#8B949E" text-anchor="start"><tspan x="42" dy="0">sets intent and the law</tspan><tspan x="42" dy="17">holds every gate:</tspan><tspan x="42" dy="17">test · merge · push</tspan></text>
+    </g>
+    <g>
+      <rect x="295.5" y="133.5" width="246" height="137" rx="8" fill="#161B22" stroke="#D97757" stroke-width="1.5"/>
+      <text x="313.5" y="159.5" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#D97757">LEAD</text>
+      <text x="313.5" y="181.5" font-size="14" font-weight="bold" fill="#E6EDF3">Fable</text>
+      <text x="313.5" y="203.5" font-size="12" fill="#8B949E" text-anchor="start"><tspan x="313.5" dy="0">reads · plans · audits</tspan><tspan x="313.5" dy="17">decides · verifies · reports</tspan></text>
+      <rect x="313.5" y="232.5" width="112.4" height="22" rx="11" fill="#D97757" fill-opacity="0.14"/>
+      <text x="369.7" y="243.5" font-size="11" fill="#D97757" text-anchor="middle" dominant-baseline="central">writes no code</text>
+    </g>
+    <g>
+      <rect x="603" y="88" width="253" height="105" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="621" y="114" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#D97757">WORKER</text>
+      <text x="621" y="136" font-size="14" font-weight="bold" fill="#E6EDF3">Opus</text>
+      <text x="621" y="158" font-size="12" fill="#8B949E" text-anchor="start"><tspan x="621" dy="0">writes the code</tspan><tspan x="621" dy="17">compile-only · owns its files</tspan></text>
+    </g>
+    <g>
+      <rect x="603" y="211" width="253" height="105" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="621" y="237" font-size="11" font-weight="bold" letter-spacing="1.5" fill="#D97757">WORKER</text>
+      <text x="621" y="259" font-size="14" font-weight="bold" fill="#E6EDF3">Opus</text>
+      <text x="621" y="281" font-size="12" fill="#8B949E" text-anchor="start"><tspan x="621" dy="0">writes the code</tspan><tspan x="621" dy="17">compile-only · owns its files</tspan></text>
+    </g>
+    <text x="24" y="346" font-size="11" fill="#8B949E">Two workers at most. Effort is set per task. Tokens are a budget.</text>
+  </g>
+  <g class="band b1">
+    <rect x="24" y="392.5" width="18" height="3" rx="1.5" fill="#00ADD8"/>
+    <text x="50" y="400" font-size="12" font-weight="bold" letter-spacing="1.5" fill="#00ADD8">THE TIGHT SNOWBALL</text>
+    <g class="s0">
+      <path class="wire" d="M150 456 H304" pathLength="1" fill="none" stroke="#00ADD8" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M310 456 L303 452 L303 460 Z" fill="#00ADD8"/>
+    </g>
+    <g class="s1">
+      <path class="wire" d="M362 456 H508" pathLength="1" fill="none" stroke="#00ADD8" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M514 456 L507 452 L507 460 Z" fill="#00ADD8"/>
+    </g>
+    <g class="s2">
+      <path class="wire" d="M574 456 H712" pathLength="1" fill="none" stroke="#00ADD8" stroke-width="1.5" stroke-linejoin="round"/>
+      <path class="head" d="M718 456 L711 452 L711 460 Z" fill="#00ADD8"/>
+    </g>
+    <g class="node n0">
+      <circle cx="128" cy="456" r="14" fill="#0D1117" stroke="#00ADD8" stroke-width="1.5"/>
+      <text x="128" y="456" font-size="11" font-weight="bold" fill="#00ADD8" text-anchor="middle" dominant-baseline="central">01</text>
+    </g>
+    <g class="node n1">
+      <circle cx="336" cy="456" r="18" fill="#0D1117" stroke="#00ADD8" stroke-width="1.5"/>
+      <text x="336" y="456" font-size="12" font-weight="bold" fill="#00ADD8" text-anchor="middle" dominant-baseline="central">02</text>
+    </g>
+    <g class="node n2">
+      <circle cx="544" cy="456" r="22" fill="#0D1117" stroke="#00ADD8" stroke-width="1.5"/>
+      <text x="544" y="456" font-size="13" font-weight="bold" fill="#00ADD8" text-anchor="middle" dominant-baseline="central">03</text>
+    </g>
+    <g class="node n3">
+      <circle cx="752" cy="456" r="26" fill="#0D1117" stroke="#00ADD8" stroke-width="1.5"/>
+      <text x="752" y="456" font-size="14" font-weight="bold" fill="#00ADD8" text-anchor="middle" dominant-baseline="central">04</text>
+    </g>
+    <text x="128" y="508" font-size="13" font-weight="bold" fill="#E6EDF3" text-anchor="middle">Modularity</text>
+    <text x="128" y="528" font-size="12" fill="#8B949E" text-anchor="middle"><tspan x="128" dy="0">one error module,</tspan><tspan x="128" dy="16">one log module</tspan><tspan x="128" dy="16">no hardcoded values</tspan></text>
+    <text x="336" y="508" font-size="13" font-weight="bold" fill="#E6EDF3" text-anchor="middle">Prove by Attack</text>
+    <text x="336" y="528" font-size="12" fill="#8B949E" text-anchor="middle"><tspan x="336" dy="0">negative tests,</tspan><tspan x="336" dy="16">boundaries, sabotage</tspan><tspan x="336" dy="16">a pass must survive it</tspan></text>
+    <text x="544" y="508" font-size="13" font-weight="bold" fill="#E6EDF3" text-anchor="middle">Aggressive Fuzz</text>
+    <text x="544" y="528" font-size="12" fill="#8B949E" text-anchor="middle"><tspan x="544" dy="0">every module,</tspan><tspan x="544" dy="16">tests included</tspan><tspan x="544" dy="16">misuse and disaster</tspan></text>
+    <text x="752" y="508" font-size="13" font-weight="bold" fill="#E6EDF3" text-anchor="middle">Live Tour</text>
+    <text x="752" y="528" font-size="12" fill="#8B949E" text-anchor="middle"><tspan x="752" dy="0">the real program,</tspan><tspan x="752" dy="16">every screen</tspan><tspan x="752" dy="16">as a hostile user</tspan></text>
+    <text x="24" y="590" font-size="11" fill="#8B949E">Fixed order. A stage starts only when the previous one is honestly complete.</text>
+  </g>
+</svg>

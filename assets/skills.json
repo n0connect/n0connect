@@ -1,0 +1,97 @@
+{
+  "prompt": "skills --scored-by fable --scale 10",
+  "title": "Skill map scored by Claude Fable (scale 0 to 10)",
+  "scale": 10,
+  "groups": [
+    {
+      "name": "Offensive Security",
+      "accent": "#FF6633",
+      "skills": [
+        {
+          "name": "Red Team Ops",
+          "score": 6.5
+        },
+        {
+          "name": "Offensive Web",
+          "score": 7
+        },
+        {
+          "name": "Vulnerability Research",
+          "score": 7.5
+        },
+        {
+          "name": "Network & Protocols",
+          "score": 7.5
+        },
+        {
+          "name": "Reverse Engineering",
+          "score": 8.5
+        },
+        {
+          "name": "Applied Cryptography",
+          "score": 8.5
+        }
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "accent": "#00ADD8",
+      "skills": [
+        {
+          "name": "Frontend · React / TS",
+          "score": 7
+        },
+        {
+          "name": "Backend · Go",
+          "score": 8
+        },
+        {
+          "name": "Systems · Rust / C / C++",
+          "score": 8.5
+        },
+        {
+          "name": "Desktop · Tauri / Qt",
+          "score": 8.5
+        },
+        {
+          "name": "Verification & Fuzzing",
+          "score": 9
+        },
+        {
+          "name": "Secure Architecture",
+          "score": 9
+        }
+      ]
+    },
+    {
+      "name": "AI-Native Engineering",
+      "accent": "#D97757",
+      "skills": [
+        {
+          "name": "ML Research",
+          "score": 6.5
+        },
+        {
+          "name": "Context & Token Economy",
+          "score": 8
+        },
+        {
+          "name": "Harness & Skill Design",
+          "score": 8.5
+        },
+        {
+          "name": "AI-Assisted Security",
+          "score": 8.5
+        },
+        {
+          "name": "Agent & MCP Tooling",
+          "score": 9
+        },
+        {
+          "name": "Multi-Agent Orchestration",
+          "score": 9
+        }
+      ]
+    }
+  ]
+}
